@@ -1,0 +1,6 @@
+{
+  "name": "Slider Salon & Spa",
+  "description": "Premium Men's Grooming and Luxury Spa Experience in Pir Mahal, Pakistan",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

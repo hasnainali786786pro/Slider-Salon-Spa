@@ -1,0 +1,14 @@
+# Netlify Configuration File
+# This file configures the build settings and redirects for Slider Salon & Spa.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirects are essential for Single Page Applications (SPAs) like React with client-side routing.
+# This rule tells Netlify to redirect all routes to index.html so React can handle the routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
